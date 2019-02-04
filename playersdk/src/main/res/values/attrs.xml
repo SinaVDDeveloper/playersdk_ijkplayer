@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VDVideoView">
+        <attr name="layerAttrs" format="reference" />
+        <attr name="canPopupWindow" format="enum">
+            <enum name="rightBottom" value="0" />
+            <enum name="leftBottom" value="1" />
+            <enum name="centerBottom" value="2" />
+        </attr>
+        <attr name="popWindowWidth" format="dimension"></attr>
+        <attr name="popWindowHeight" format="dimension"></attr>
+    </declare-styleable>
+</resources>

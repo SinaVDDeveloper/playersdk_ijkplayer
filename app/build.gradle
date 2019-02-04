@@ -8,7 +8,6 @@ android {
         targetSdkVersion build_versions.target_sdk
         versionCode build_versions.versionCode
         versionName build_versions.versionName
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -21,4 +20,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation deps.support.app_compat;
+    implementation deps.support.annotations
+    implementation deps.ijkplayer_java
+    implementation deps.ijkplayer_armv7a
+
+    implementation project(":playersdk")
 }

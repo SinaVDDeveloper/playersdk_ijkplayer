@@ -23,6 +23,7 @@ android {
 
 dependencies {
     implementation deps.weakhandler
+    implementation deps.support.annotations
     implementation deps.ijkplayer_java
     implementation deps.ijkplayer_armv7a
 }
